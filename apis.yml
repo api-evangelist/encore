@@ -40,7 +40,10 @@ apis:
       - Infrastructure Automation
       - Cloud Native
       - Frameworks
-    properties: []
+    properties:
+      - type: JSONSchema
+        url: >-
+          https://raw.githubusercontent.com/api-evangelist/encore/refs/heads/main/json-schema/encore-app-configuration.json
 common:
   - type: Website
     url: https://encore.dev/

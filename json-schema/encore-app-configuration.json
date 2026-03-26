@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/api-evangelist/encore/json-schema/encore-app-configuration.json",
+  "title": "Encore App Configuration",
+  "description": "JSON Schema for the encore.app configuration file that defines an Encore application.",
+  "type": "object",
+  "required": ["id"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique application ID from the Encore platform."
+    },
+    "lang": {
+      "type": "string",
+      "enum": ["go", "typescript"],
+      "description": "Primary programming language for the application."
+    },
+    "global_cors": {
+      "type": "object",
+      "properties": {
+        "allow_origins_without_credentials": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Origins allowed without credentials."
+        },
+        "allow_origins_with_credentials": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Origins allowed with credentials."
+        },
+        "debug": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable CORS debug mode."
+        }
+      }
+    },
+    "experiments": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of experimental features to enable."
+    },
+    "build": {
+      "type": "object",
+      "properties": {
+        "docker": {
+          "type": "object",
+          "properties": {
+            "bundle_source": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether to bundle source code in Docker image."
+            },
+            "base_image": {
+              "type": "string",
+              "description": "Custom base Docker image."
+            }
+          }
+        }
+      }
+    },
+    "generate": {
+      "type": "object",
+      "properties": {
+        "typescript": {
+          "type": "object",
+          "properties": {
+            "output": {
+              "type": "string",
+              "description": "Output directory for generated TypeScript client."
+            }
+          }
+        },
+        "go": {
+          "type": "object",
+          "properties": {
+            "output": {
+              "type": "string",
+              "description": "Output directory for generated Go client."
+            }
+          }
+        },
+        "openapi": {
+          "type": "object",
+          "properties": {
+            "output": {
+              "type": "string",
+              "description": "Output directory for generated OpenAPI spec."
+            }
+          }
+        }
+      }
+    }
+  }
+}
