@@ -1,11 +1,21 @@
 aid: encore
 name: Encore
 description: >-
-  Encore is a development platform for building type-safe distributed systems and microservices with built-in infrastructure automation.
+  Encore is an open source development platform for building type-safe,
+  production-ready backend applications and distributed systems. It supports
+  Go and TypeScript, provides built-in infrastructure automation for databases,
+  caches, pub/sub, and cron jobs, and includes a local development dashboard
+  with automatic API documentation and distributed tracing.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Microservices
+  - Go
+  - TypeScript
+  - Backend
+  - Infrastructure Automation
+  - Cloud Native
+  - Frameworks
 url: >-
   https://raw.githubusercontent.com/api-evangelist/encore/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -15,14 +25,39 @@ apis:
   - aid: encore:encore
     name: Encore
     description: >-
-      Encore is a development platform for building type-safe distributed systems and microservices with built-in infrastructure automation.
-    humanURL: https://github.com/api-evangelist/encore
+      Encore is an open source development platform for building type-safe,
+      production-ready backend applications and distributed systems. It
+      supports Go and TypeScript, provides built-in infrastructure automation
+      for databases, caches, pub/sub, and cron jobs, and includes a local
+      development dashboard with automatic API documentation and distributed
+      tracing.
+    humanURL: https://encore.dev/
     tags:
       - Microservices
+      - Go
+      - TypeScript
+      - Backend
+      - Infrastructure Automation
+      - Cloud Native
+      - Frameworks
     properties: []
 common:
   - type: Website
-    url: https://github.com/api-evangelist/encore
+    url: https://encore.dev/
+  - type: Documentation
+    url: https://encore.dev/docs
+  - type: Getting Started
+    url: https://encore.dev/docs/ts/quick-start
+  - type: GitHub Organization
+    url: https://github.com/encoredev
+  - type: GitHub Repository
+    url: https://github.com/encoredev/encore
+  - type: Blog
+    url: https://encore.dev/blog
+  - type: Pricing
+    url: https://encore.dev/pricing
+  - type: Discord
+    url: https://encore.dev/discord
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
