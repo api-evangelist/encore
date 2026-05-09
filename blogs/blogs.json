@@ -3,11 +3,12 @@
   "feeds": [
     {
       "source": "https://encore.dev/blog",
-      "feed_url": "https://encore.dev/rss/feed.xml",
-      "saved": 10,
-      "title": "Encore Updates"
+      "feed_url": "",
+      "title": "",
+      "saved": 0,
+      "error": "no_feed"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-05-03T23:27:41Z"
+  "fetched": "2026-05-09T20:17:51Z"
 }
