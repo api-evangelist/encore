@@ -68,11 +68,11 @@ common:
     url: https://encore.dev/
   - type: Documentation
     url: https://encore.dev/docs
-  - type: Getting Started
+  - type: GettingStarted
     url: https://encore.dev/docs/ts/quick-start
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/encoredev
-  - type: GitHub Repository
+  - type: GitHubRepository
     url: https://github.com/encoredev/encore
   - type: Blog
     url: https://encore.dev/blog
