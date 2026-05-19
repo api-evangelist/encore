@@ -20,7 +20,7 @@ tags:
   - TypeScript
 url: https://raw.githubusercontent.com/api-evangelist/encore/refs/heads/main/apis.yml
 created: '2026-03-26'
-modified: '2026-04-28'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
   - aid: encore:encore-application-config
@@ -82,6 +82,9 @@ common:
     url: https://encore.dev/discord
   - type: License
     url: https://github.com/encoredev/encore/blob/main/LICENSE
+  - name: MCP Server
+    url: https://encore.dev/blog/mcp-server
+    type: MCPServer
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
