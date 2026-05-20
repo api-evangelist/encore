@@ -64,6 +64,8 @@ apis:
       - type: Source Code
         url: https://github.com/encoredev/encore
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/encore
   - type: Website
     url: https://encore.dev/
   - type: Documentation
