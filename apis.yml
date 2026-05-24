@@ -87,6 +87,8 @@ common:
   - name: MCP Server
     url: https://encore.dev/blog/mcp-server
     type: MCPServer
+  - type: LLMsTxt
+    url: https://encore.dev/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
