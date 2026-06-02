@@ -2,12 +2,20 @@
   "repo": "encore",
   "feeds": [
     {
-      "source": "https://encore.dev/blog",
+      "source": "https://encore.dev/rss/feed.xml",
       "feed_url": "https://encore.dev/rss/feed.xml",
-      "title": "Encore Updates",
-      "saved": 43
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://github.com/encoredev/encore",
+      "feed_url": "https://github.com/encoredev/encore",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 53,
-  "fetched": "2026-05-17T20:48:52Z"
+  "post_count": 54,
+  "fetched": "2026-06-01T23:35:02Z"
 }
