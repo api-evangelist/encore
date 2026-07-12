@@ -64,6 +64,10 @@ apis:
       - type: Source Code
         url: https://github.com/encoredev/encore
 common:
+  - type: VulnerabilityDisclosure
+    url: security/encore-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/encore-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/encore
   - type: Website
