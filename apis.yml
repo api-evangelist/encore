@@ -76,6 +76,14 @@ apis:
       - type: Source Code
         url: https://github.com/encoredev/encore
 common:
+  - type: IssueTracker
+    url: https://github.com/encoredev/encore/issues
+  - type: Releases
+    url: https://github.com/encoredev/encore/releases
+  - type: CodeOfConduct
+    url: https://github.com/encoredev/encore/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/encoredev/encore/blob/main/CONTRIBUTING.md
   - type: VulnerabilityDisclosure
     url: security/encore-vulnerability-disclosure.yml
   - type: DomainSecurity
