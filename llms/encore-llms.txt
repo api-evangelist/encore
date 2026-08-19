@@ -1,0 +1,370 @@
+# https://encore.dev llms.txt
+
+## Site
+
+- [Encore — Open Source Backend Framework](https://encore.dev): Open source backend framework for TypeScript and Go with automatic infrastructure provisioning.
+- [Introduction to Encore](https://encore.dev/introduction): Overview of Encore's approach to backend development and infrastructure automation.
+- [Get Started with Encore](https://encore.dev/get-started): Set up your first Encore application in minutes.
+- [Encore for Go](https://encore.dev/go): Encore's Go framework for building distributed systems with infrastructure as code.
+- [Community](https://encore.dev/community): Join the Encore developer community on Discord, GitHub, and more.
+- [Roadmap](https://encore.dev/roadmap): See what's coming next for Encore's open source framework.
+- [Templates](https://encore.dev/templates): Starter templates and example projects for Encore applications.
+- [Blog](https://encore.dev/blog): Technical articles, tutorials, and updates from the Encore team.
+
+## Documentation — Go
+
+- [Encore Go Framework](https://encore.dev/docs/go): Open source framework for building distributed systems easily.
+- [Encore CLI Installation](https://encore.dev/docs/go/install): Install the Encore CLI for local development setup.
+- [Encore Quick Start](https://encore.dev/docs/go/quick-start): Quickly learn to set up APIs with Encore framework.
+- [Encore FAQ Page](https://encore.dev/docs/go/faq): FAQs about Encore's integrations, support, and troubleshooting steps.
+- [AI Integration Guide](https://encore.dev/docs/go/ai-integration): Integrate AI seamlessly into Encore applications for efficiency.
+- [Encore Development Benefits](https://encore.dev/docs/go/concepts/benefits): Explore key benefits of using Encore for development.
+- [Encore Application Model](https://encore.dev/docs/go/concepts/application-model): Understand how Encore's Application Model enhances backend development.
+- [REST API Tutorial](https://encore.dev/docs/go/tutorials/rest-api): Learn to create a REST API for URL shortening.
+- [Uptime Monitor Tutorial](https://encore.dev/docs/go/tutorials/uptime): Set up an Uptime Monitor with Encore in thirty minutes.
+- [GraphQL API Tutorial](https://encore.dev/docs/go/tutorials/graphql): Learn to build a GraphQL API using Encore framework.
+- [Slack Bot Tutorial](https://encore.dev/docs/go/tutorials/slack-bot): Create a fun Slack bot using the cowsay utility.
+- [Meeting Notes App](https://encore.dev/docs/go/tutorials/meeting-notes): Create a meeting notes app with Go and Encore.
+- [Booking System Tutorial](https://encore.dev/docs/go/tutorials/booking-system): Learn to build a robust booking system with Encore.
+- [Incident Management Tool](https://encore.dev/docs/go/tutorials/incident-management-tool): Build a comprehensive incident management tool using Go.
+- [Encore App Structure](https://encore.dev/docs/go/primitives/app-structure): Guide to structuring Encore applications with optimal practices.
+- [Microservices with Encore.go](https://encore.dev/docs/go/primitives/services): Easily define and manage microservices using Encore.go.
+- [Defining APIs in Encore](https://encore.dev/docs/go/primitives/defining-apis): Learn to define APIs using Encore and Go functions.
+- [Encore API Calls](https://encore.dev/docs/go/primitives/api-calls): Learn to effectively call APIs using Encore framework.
+- [Raw Endpoints](https://encore.dev/docs/go/primitives/raw-endpoints): Learn to define and use raw endpoints in Encore.go.
+- [Service Structs Overview](https://encore.dev/docs/go/primitives/service-structs): Learn to define service structs for your Encore application.
+- [API Error Handling](https://encore.dev/docs/go/primitives/api-errors): Learn how to handle and structure API errors effectively.
+- [Encore Database Management](https://encore.dev/docs/go/primitives/databases): Learn about Encore's database management for SQL systems.
+- [Change Database Schema](https://encore.dev/docs/go/primitives/change-db-schema): Guide to changing database schemas with Encore migrations.
+- [Connect Existing Database](https://encore.dev/docs/go/primitives/connect-existing-db): Integrate Encore with your existing database easily.
+- [Insert Test Data](https://encore.dev/docs/go/primitives/insert-test-data-db): Learn how to insert test data into databases easily.
+- [Share Databases Between Services](https://encore.dev/docs/go/primitives/share-db-between-services): Learn how to share databases across multiple services easily.
+- [PostgreSQL Extensions](https://encore.dev/docs/go/primitives/databases/extensions): Explore PostgreSQL extensions for enhanced database functionality.
+- [Database Troubleshooting](https://encore.dev/docs/go/primitives/databases/troubleshooting): Resolving common database errors in Encore applications.
+- [Object Storage Guide](https://encore.dev/docs/go/primitives/object-storage): Learn about object storage solutions and usage in Encore.
+- [Encore Cron Jobs](https://encore.dev/docs/go/primitives/cron-jobs): Manage periodic tasks effortlessly using Encore Cron Jobs.
+- [Pub/Sub Overview](https://encore.dev/docs/go/primitives/pubsub): Learn to implement Pub/Sub for asynchronous communication.
+- [Encore Caching Guide](https://encore.dev/docs/go/primitives/caching): Understand caching with Encore for improved application performance.
+- [Secrets Management](https://encore.dev/docs/go/primitives/secrets): Securely manage and store secrets for application development.
+- [Encore Code Snippets](https://encore.dev/docs/go/primitives/code-snippets): Code snippets for APIs, databases, and jobs in Encore.
+- [API Authentication Guide](https://encore.dev/docs/go/develop/auth): Learn to implement authentication in Encore applications effectively.
+- [Encore Configuration Guide](https://encore.dev/docs/go/develop/config): Understanding configuration management using Encore with CUE files.
+- [CORS Configuration Guide](https://encore.dev/docs/go/develop/cors): Learn how to configure CORS for your APIs effectively.
+- [Encore Metadata API](https://encore.dev/docs/go/develop/metadata): Access application and request metadata in Encore development.
+- [Encore Middleware Guide](https://encore.dev/docs/go/develop/middleware): Learn how to implement middleware in Encore for APIs.
+- [Encore Testing Guide](https://encore.dev/docs/go/develop/testing): Learn effective testing strategies and tools for Encore applications.
+- [Mocking in Encore](https://encore.dev/docs/go/develop/testing/mocking): Learn how to effectively mock APIs and services in Encore.
+- [Request Validation Guide](https://encore.dev/docs/go/develop/validation): Learn to validate incoming requests effectively in Encore.
+- [Encore Environment Variables](https://encore.dev/docs/go/develop/env-vars): Explore environment variables for enhancing Encore development.
+- [Encore CLI Reference](https://encore.dev/docs/go/cli/cli-reference): Comprehensive CLI reference for Encore application management.
+- [Client Generation Guide](https://encore.dev/docs/go/cli/client-generation): Learn to generate type-safe API clients effortlessly.
+- [Infrastructure Namespaces](https://encore.dev/docs/go/cli/infra-namespaces): Manage and switch your infrastructure namespaces effortlessly.
+- [Encore CLI Configuration](https://encore.dev/docs/go/cli/config-reference): Detailed options for configuring the Encore CLI effectively.
+- [Encore Telemetry Overview](https://encore.dev/docs/go/cli/telemetry): Understand Encore telemetry setup and user privacy options.
+- [Encore MCP Guide](https://encore.dev/docs/go/cli/mcp): Connect Encore apps to AI using Model Context Protocol.
+- [Local Development Dashboard](https://encore.dev/docs/go/observability/dev-dash): Efficient local development dashboard for Encore applications.
+- [Encore Tracing](https://encore.dev/docs/go/observability/tracing): Explore Encore's tracing for comprehensive application insights.
+- [Microservices Flow Visualization](https://encore.dev/docs/go/observability/encore-flow): Visualize and manage dependencies in your microservices architecture.
+- [Service Catalog Overview](https://encore.dev/docs/go/observability/service-catalog): Automatically generate and maintain up-to-date API documentation.
+- [Logging for Observability](https://encore.dev/docs/go/observability/logging): Learn structured logging with integrated tracing for debugging.
+- [Custom Metrics in Encore](https://encore.dev/docs/go/observability/metrics): Define and monitor custom metrics in Encore applications.
+- [Encore CI/CD Guide](https://encore.dev/docs/go/self-host/ci-cd): Explore integration and automation for Encore CI/CD pipelines.
+- [Docker Image Building](https://encore.dev/docs/go/self-host/docker-build): Build and self-host Docker images for Encore applications.
+- [Configure Infrastructure](https://encore.dev/docs/go/self-host/configure-infra): Guide to configure necessary infrastructure for Encore applications.
+- [Break Up Monolith](https://encore.dev/docs/go/how-to/break-up-monolith): Learn to split monoliths into microservices effectively.
+- [Frontend Integration Guide](https://encore.dev/docs/go/how-to/integrate-frontend): Guide to integrating a frontend with Encore backend services.
+- [Integrate Temporal](https://encore.dev/docs/go/how-to/temporal): Integrate Temporal workflow in your Encore application easily.
+- [Enable Cgo for Encore](https://encore.dev/docs/go/how-to/cgo): Learn how to enable cgo for Encore applications.
+- [Debugging with Delve](https://encore.dev/docs/go/how-to/debug): Learn to debug your Encore application using Delve effectively.
+- [HTTP Requests Guide](https://encore.dev/docs/go/how-to/http-requests): Learn to handle raw HTTP requests in Encore framework.
+- [Atlas and GORM Guide](https://encore.dev/docs/go/how-to/atlas-gorm): Guide to using Atlas with GORM for database migrations.
+- [Ent ORM Integration](https://encore.dev/docs/go/how-to/entgo-orm): Integrate ent ORM with Encore for database migrations.
+- [gRPC Integration Guide](https://encore.dev/docs/go/how-to/grpc-connect): Learn how to integrate gRPC with Encore services.
+- [Transactional Outbox Pattern](https://encore.dev/docs/go/how-to/pubsub-outbox): Implement transactional outbox pattern for reliable messaging.
+- [Dependency Injection Guide](https://encore.dev/docs/go/how-to/dependency-injection): Learn how to implement dependency injection in Encore.
+- [Auth0 Authentication Guide](https://encore.dev/docs/go/how-to/auth0-auth): Learn to integrate Auth0 for seamless web app authentication.
+- [Clerk Authentication Guide](https://encore.dev/docs/go/how-to/clerk-auth): Learn how to implement Clerk authentication in Encore.
+- [Firebase Auth Guide](https://encore.dev/docs/go/how-to/firebase-auth): Integrate Firebase Authentication into your Encore applications easily.
+- [Logto Authentication Guide](https://encore.dev/docs/go/how-to/logto-auth): Integrate Logto for authentication in your Encore application.
+- [Encore Migration Guide](https://encore.dev/docs/go/migration/migrate-away): Guide for a smooth migration from Encore framework tools.
+- [Get Involved with Encore](https://encore.dev/docs/go/community/get-involved): Join and contribute to the vibrant Encore developer community.
+- [Contribute to Encore](https://encore.dev/docs/go/community/contribute): Explore ways to contribute to the Encore community effectively.
+- [Open Source Community](https://encore.dev/docs/go/community/open-source): Explore Encore's open source community and contribution opportunities.
+- [Encore Community Principles](https://encore.dev/docs/go/community/principles): Guiding principles for a welcoming Encore community.
+- [Submit Encore Templates](https://encore.dev/docs/go/community/submit-template): Submit templates to enhance Encore application development.
+
+## Documentation — TypeScript
+
+- [Encore.ts Framework](https://encore.dev/docs/ts): Open source backend framework for building type-safe distributed systems with TypeScript and automatic infrastructure provisioning.
+- [Encore CLI Installation](https://encore.dev/docs/ts/install): Install the Encore CLI to set up your local development environment with logs, tracing, and API documentation.
+- [Quick Start Guide](https://encore.dev/docs/ts/quick-start): Get started with Encore.ts in 5 minutes by creating and deploying your first API.
+- [Frequently Asked Questions](https://encore.dev/docs/ts/faq): Common questions about Encore's Open Source project, supported languages, integrations, and troubleshooting.
+- [AI Integration Overview](https://encore.dev/docs/ts/ai-integration): Integrate AI seamlessly for building and managing applications.
+- [Benefits of Encore](https://encore.dev/docs/ts/concepts/benefits): Key advantages of using Encore including integrated developer experience, high-performance Rust runtime, and built-in observability.
+- [Application Model](https://encore.dev/docs/ts/concepts/application-model): How Encore uses static analysis to understand your application and generate architecture diagrams, API docs, and infrastructure.
+- [Building an API](https://encore.dev/docs/ts/concepts/hello-world): Learn to create a type-safe TypeScript API endpoint with Encore in under 10 lines of code.
+- [REST API Tutorial](https://encore.dev/docs/ts/tutorials/rest-api): Build a URL Shortener REST API with PostgreSQL, tests, and the local development dashboard.
+- [Uptime Monitor Tutorial](https://encore.dev/docs/ts/tutorials/uptime): Build an event-driven uptime monitoring system with Cron Jobs and Pub/Sub in 30 minutes.
+- [GraphQL API Tutorial](https://encore.dev/docs/ts/tutorials/graphql): Build a GraphQL API using Apollo Server and Encore.ts with automatic tracing.
+- [Slack Bot Tutorial](https://encore.dev/docs/ts/tutorials/slack-bot): Create a Slack bot using the cowsay utility with Encore.ts.
+- [App Structure](https://encore.dev/docs/ts/primitives/app-structure): How to structure your Encore application as a monorepo supporting monolith or microservices architectures.
+- [Services](https://encore.dev/docs/ts/primitives/services): Define and manage microservices by creating encore.service.ts files with the Service class.
+- [Defining APIs](https://encore.dev/docs/ts/primitives/defining-apis): Create type-safe API endpoints using the api function with automatic request validation and schema generation.
+- [Request Validation](https://encore.dev/docs/ts/primitives/validation): Built-in runtime request validation using TypeScript types for body, query parameters, and headers.
+- [API Calls](https://encore.dev/docs/ts/primitives/api-calls): Make service-to-service API calls that look like regular function calls with compile-time type checking.
+- [Raw Endpoints](https://encore.dev/docs/ts/primitives/raw-endpoints): Define low-level HTTP endpoints with direct access to request and response objects for webhooks and custom handling.
+- [GraphQL](https://encore.dev/docs/ts/primitives/graphql): Integrate GraphQL libraries like Apollo with Encore.ts using raw endpoints and automatic tracing.
+- [Streaming APIs](https://encore.dev/docs/ts/primitives/streaming-apis): Create WebSocket-based streaming endpoints with typed StreamIn, StreamOut, and StreamInOut handlers.
+- [API Errors](https://encore.dev/docs/ts/primitives/errors): Standardized API error handling with error codes using the APIError class.
+- [Static Assets](https://encore.dev/docs/ts/primitives/static-assets): Serve static files like HTML, CSS, and JavaScript using the api.static function.
+- [Databases](https://encore.dev/docs/ts/primitives/databases): Create and manage PostgreSQL databases with automatic provisioning using SQLDatabase and migration files.
+- [Database Extensions](https://encore.dev/docs/ts/primitives/databases-extensions): List of pre-installed PostgreSQL extensions available including PostGIS, pgvector, and pg_trgm.
+- [Object Storage](https://encore.dev/docs/ts/primitives/object-storage): Cloud-agnostic object storage API supporting S3, GCS, and S3-compatible providers with automatic tracing.
+- [Cron Jobs](https://encore.dev/docs/ts/primitives/cron-jobs): Define periodic recurring tasks declaratively using the CronJob class with automatic scheduling and monitoring.
+- [Pub/Sub](https://encore.dev/docs/ts/primitives/pubsub): Build event-driven architectures with cloud-agnostic publish-subscribe messaging using topics and subscriptions.
+- [Secrets](https://encore.dev/docs/ts/primitives/secrets): Securely store and access secret values like API keys using Encore's built-in secrets manager.
+- [Authentication](https://encore.dev/docs/ts/develop/auth): Implement authentication handlers using the authHandler function to verify users on API endpoints.
+- [Using ORMs](https://encore.dev/docs/ts/develop/orms): Integrate ORMs and migration frameworks with Encore's named databases and SQL migration support.
+- [Drizzle ORM](https://encore.dev/docs/ts/develop/orms/drizzle): Set up and use Drizzle ORM with Encore.ts for type-safe database queries.
+- [Knex.js](https://encore.dev/docs/ts/develop/orms/knex): Integrate Knex.js SQL query builder with Encore.ts for database operations.
+- [Prisma](https://encore.dev/docs/ts/develop/orms/prisma): Use Prisma ORM with Encore.ts for type-safe database access and migrations.
+- [Sequelize](https://encore.dev/docs/ts/develop/orms/sequelize): Set up Sequelize ORM with Encore.ts for promise-based database access.
+- [CORS Configuration](https://encore.dev/docs/ts/develop/cors): Configure Cross-Origin Resource Sharing settings for your Encore APIs in the encore.app file.
+- [Metadata API](https://encore.dev/docs/ts/develop/metadata): Access application and request metadata including environment info, build revision, and current request details.
+- [Testing](https://encore.dev/docs/ts/develop/testing): Write and run tests with Vitest or other test runners using Encore's built-in test infrastructure.
+- [Debugging](https://encore.dev/docs/ts/develop/debug): Debug your Encore application using Node.js inspector with VS Code or other IDEs.
+- [CLI Reference](https://encore.dev/docs/ts/cli/cli-reference): Complete reference for all Encore CLI commands including run, test, build, and deployment tools.
+- [Client Generation](https://encore.dev/docs/ts/cli/client-generation): Generate type-safe API clients in Go, TypeScript, JavaScript, or OpenAPI from your Encore application.
+- [Infrastructure Namespaces](https://encore.dev/docs/ts/cli/infra-namespaces): Create and switch between isolated infrastructure namespaces for independent local development environments.
+- [Telemetry](https://encore.dev/docs/ts/cli/telemetry): How Encore collects usage telemetry data and how to opt out.
+- [Local Development Dashboard](https://encore.dev/docs/ts/observability/dev-dash): Built-in dashboard with API explorer, service catalog, distributed tracing, and architecture visualization.
+- [Logging](https://encore.dev/docs/ts/observability/logging): Structured logging with type-safe key-value pairs integrated with distributed tracing.
+- [Distributed Tracing](https://encore.dev/docs/ts/observability/tracing): Automatic end-to-end tracing across all services with stack traces, logs, HTTP requests, and database queries.
+- [Encore Flow](https://encore.dev/docs/ts/observability/flow): Visual tool for viewing your microservices architecture, dependencies, and communication patterns.
+- [Service Catalog](https://encore.dev/docs/ts/observability/service-catalog): Automatically generated and always up-to-date API documentation from your application model.
+- [Docker Build](https://encore.dev/docs/ts/self-host/build): Build Docker images from your Encore application using the CLI for self-hosted deployment.
+- [Configure Infrastructure](https://encore.dev/docs/ts/self-host/configure-infra): Provide infrastructure configuration for databases, Pub/Sub, metrics, and service discovery in self-hosted deployments.
+- [Deploy to DigitalOcean](https://encore.dev/docs/ts/self-host/deploy-digitalocean): Step-by-step guide for deploying an Encore app to DigitalOcean App Platform using Docker.
+- [File Uploads](https://encore.dev/docs/ts/how-to/file-uploads): Handle file uploads using raw endpoints with busboy and store files in a database or object storage.
+- [Deploy with Vercel](https://encore.dev/docs/ts/how-to/vercel): Host your frontend on Vercel while running your Encore.ts backend separately.
+- [Use with NestJS](https://encore.dev/docs/ts/how-to/nestjs): Add Encore to an existing NestJS project for backend primitives like APIs, databases, and Cron Jobs.
+- [Template Engines](https://encore.dev/docs/ts/how-to/template-engine): Use EJS, Handlebars, or Pug template engines to render server-side HTML views with Encore.ts.
+- [Migrate Away from Encore](https://encore.dev/docs/ts/migration/migrate-away): Understand how to migrate away from Encore and the tools available for ejecting your application.
+- [Express.js Migration Guide](https://encore.dev/docs/ts/migration/express-migration): Migrate an existing Express.js application to Encore.ts with side-by-side code comparisons.
+- [Get Involved](https://encore.dev/docs/ts/community/get-involved): Join the Encore developer community on GitHub, Discord, and other channels.
+- [Contribute](https://encore.dev/docs/ts/community/contribute): Ways to contribute to Encore including code, documentation, blog posts, and community support.
+- [Open Source](https://encore.dev/docs/ts/community/open-source): Encore's open source licensing under Mozilla Public License 2.0 and contribution opportunities.
+- [Community Principles](https://encore.dev/docs/ts/community/principles): Code of conduct and guiding principles for the Encore community.
+- [Submit a Template](https://encore.dev/docs/ts/community/submit-template): Contribute starter templates and reusable code samples to the Encore examples repository.
+
+## Documentation — Platform
+
+- [Introduction](https://encore.dev/docs/platform): Overview of Encore Cloud for building, testing, and deploying cloud backend applications with automated infrastructure.
+- [AI Integration](https://encore.dev/docs/platform/ai-integration): How Encore Cloud enables AI-powered development by automatically provisioning infrastructure from AI-generated code.
+- [Deploying & CI/CD](https://encore.dev/docs/platform/deploy/deploying): How to deploy your Encore application using built-in CI/CD by pushing to a git repository.
+- [Environments](https://encore.dev/docs/platform/deploy/environments): Understanding environment types (local, preview, development, production) and how Encore automatically provisions each.
+- [Preview Environments](https://encore.dev/docs/platform/deploy/preview-environments): Ephemeral preview environments automatically created for each pull request on the Pro plan.
+- [Application Security](https://encore.dev/docs/platform/deploy/security): Security practices and features built into Encore Cloud deployments, including encryption, IAM management, and database security.
+- [Connect Your Cloud Account](https://encore.dev/docs/platform/infrastructure/own-cloud): How to deploy your application to AWS or GCP using your own cloud account.
+- [Provisioning & Environments](https://encore.dev/docs/platform/infrastructure/infra): How Encore Cloud automatically provisions and manages infrastructure across cloud providers from your application code.
+- [Kubernetes](https://encore.dev/docs/platform/infrastructure/kubernetes): Deploying Encore applications to new or existing Kubernetes clusters on AWS and GCP.
+- [Import Kubernetes Cluster](https://encore.dev/docs/platform/infrastructure/import-kubernetes-cluster): How to deploy your Encore application into a pre-existing Kubernetes cluster.
+- [Configure kubectl](https://encore.dev/docs/platform/infrastructure/configure-kubectl): Configuring kubectl to connect and authenticate with Encore-managed Kubernetes clusters.
+- [Managing Database Users](https://encore.dev/docs/platform/infrastructure/manage-db-users): How to view and manage database user credentials for Encore-provisioned databases.
+- [Neon Postgres](https://encore.dev/docs/platform/infrastructure/neon): Configuring Encore Cloud to use Neon as a serverless Postgres database provider.
+- [Metrics](https://encore.dev/docs/platform/observability/metrics): Automatic metrics dashboards, custom metrics, and third-party monitoring integrations.
+- [Distributed Tracing](https://encore.dev/docs/platform/observability/tracing): Automatic distributed tracing across all environments for debugging and performance insights.
+- [Flow Architecture Diagram](https://encore.dev/docs/platform/observability/encore-flow): Visual tool for viewing your microservices architecture, service dependencies, and system topology.
+- [Service Catalog](https://encore.dev/docs/platform/observability/service-catalog): Automatically generated and always up-to-date API documentation and service catalog.
+- [GitHub Integration](https://encore.dev/docs/platform/integrations/github): Integrating your Encore application with GitHub for source code hosting and CI/CD.
+- [Custom Domains](https://encore.dev/docs/platform/integrations/custom-domains): Serving your backend APIs using your own custom domain name with built-in WAF.
+- [Webhooks](https://encore.dev/docs/platform/integrations/webhooks): Configuring HTTP webhook notifications for Encore platform events like deployments.
+- [OAuth Clients](https://encore.dev/docs/platform/integrations/oauth-clients): Creating OAuth clients for delegated and scoped programmatic access to the Encore Cloud API.
+- [Auth Keys](https://encore.dev/docs/platform/integrations/auth-keys): Pre-authentication keys for authenticating the Encore CLI in CI/CD pipelines without browser sign-in.
+- [API Reference](https://encore.dev/docs/platform/integrations/api-reference): Programmatic API access to the Encore Cloud platform for automation and integrations.
+- [Terraform Provider](https://encore.dev/docs/platform/integrations/terraform): Using the Encore Terraform Provider to reference Encore-provisioned resources in your Terraform configurations.
+- [Try Encore](https://encore.dev/docs/platform/migration/try-encore): Advice on how to evaluate and try Encore for your existing project.
+- [Migrate to Encore](https://encore.dev/docs/platform/migration/migrate-to-encore): Guide for incrementally adopting Encore without a complete rewrite of your existing system.
+- [Migrate Away from Encore](https://encore.dev/docs/platform/migration/migrate-away): Tools and guidance for migrating away from Encore.
+- [Compliance & Security](https://encore.dev/docs/platform/management/compliance): Encore's security measures, SOC 2 audit preparation, and trust service criteria compliance.
+- [Plans & Billing](https://encore.dev/docs/platform/management/billing): Overview of Free and Pro plans, pricing, and when to upgrade.
+- [Telemetry](https://encore.dev/docs/platform/management/telemetry): What telemetry data Encore collects, how it is used, and how to opt out.
+- [Roles & Permissions](https://encore.dev/docs/platform/management/permissions): Membership roles (Admin, Member, Viewer) and their permissions for Encore applications.
+- [Usage Limits](https://encore.dev/docs/platform/management/usage): Fair use guidelines and usage limits for the free Encore Cloud development hosting.
+- [Encore vs Heroku](https://encore.dev/docs/platform/other/vs-heroku): Comparison of Encore's infrastructure-from-code approach with Heroku's Platform as a Service model.
+- [Encore vs Supabase](https://encore.dev/docs/platform/other/vs-supabase): Comparison of Encore's backend development platform with Supabase and Firebase Backend as a Service.
+- [Encore vs Terraform](https://encore.dev/docs/platform/other/vs-terraform): Comparison of Encore's declarative infrastructure approach with Terraform and Pulumi Infrastructure as Code tools.
+
+## Blog
+
+- [Encore.ts: a new type of framework](https://encore.dev/blog/a-new-type-of-framework): How Encore.ts is more than just another backend framework.
+- [Fastify v5 breaking changes](https://encore.dev/blog/fastify-v5): Should you upgrade to Fastify v5? Probably not.
+- [Encore.ts cold starts are 17x faster](https://encore.dev/blog/cold-starts): Benchmarking cold startup times for popular Node.js frameworks.
+- [Encore.ts — 9x faster than Express.js](https://encore.dev/blog/event-loops): Combining Node.js with Async Rust for remarkable performance.
+- [Queueing: An interactive study](https://encore.dev/blog/queueing): An interactive study of queueing strategies.
+- [Encore AI API Creator](https://encore.dev/blog/ai-api-creator): From prompt to production with one integrated workflow.
+- [Neon Serverless Postgres in Encore](https://encore.dev/blog/neon-serverless-postgres): Full support for Neon's dynamic scaling and branching capabilities.
+- [Encore is fully Open Source](https://encore.dev/blog/open-source): Encore's open source tools can now be used without an Encore account.
+- [Encore for TypeScript](https://encore.dev/blog/encore-for-typescript): Encore is now available for TypeScript, powered by a Rust runtime.
+- [AuthZ for small teams](https://encore.dev/blog/authz-for-small-teams): Practical patterns for implementing authorization.
+- [The Thundering Herd Problem](https://encore.dev/blog/thundering-herd-problem): Distributed Systems Horror Stories: Part Two.
+- [Kubernetes Deep Health Checks](https://encore.dev/blog/horror-stories-k8s): Distributed Systems Horror Stories: Part One.
+- [Year in Review 2023](https://encore.dev/blog/2023-in-review): Best new releases and engineering blogs in 2023.
+- [Tracing TypeScript's Trails](https://encore.dev/blog/tracing-typescripts-trails): The wizardry of AsyncLocalStorage.
+- [Retries: An interactive study](https://encore.dev/blog/retries): An interactive study of common retry methods.
+- [You Can't Unboil a Frog](https://encore.dev/blog/you-cant-unboil-a-frog): How to cope when your tech stack is a hot mess of complexity.
+- [The PaaS Dilemma](https://encore.dev/blog/the-paas-dilemma): Overcoming trust issues and vendor lock-in through open source.
+- [Understanding Go 1.21 generics](https://encore.dev/blog/go1.21-generics): Breaking down the release notes with concrete examples.
+- [Long Term Ownership of Event-Driven Systems](https://encore.dev/blog/long-term-ownership): The least sexy aspect of building Event-Driven Architectures.
+- [Building for Failure](https://encore.dev/blog/building-for-failure): Uncovering hidden dangers when designing Event-Driven Systems.
+- [Making a Business Case for EDA](https://encore.dev/blog/eda-business-case): Taking the first steps towards an Event-Driven Architecture.
+- [Event-Driven Architecture](https://encore.dev/blog/event-driven-architecture): What is an Event-Driven Architecture and why do you need one?
+- [Scrubbing sensitive data at 180MiB/sec](https://encore.dev/blog/scrubbing-sensitive-data): Redacting sensitive data from traces with static analysis.
+- [From Spotify to DevTools](https://encore.dev/blog/from-spotify-to-encore): Transforming development like we did the music industry.
+- [Backend Developers deserve a Sous-Chef](https://encore.dev/blog/developers-deserve-a-sous-chef): Imagine the frustration of a master chef shackled by potato peeling.
+- [Yet Another Developer Platform](https://encore.dev/blog/yet-another-developer-platform): If you're spending more time on tooling than product, you're doing it wrong.
+- [Is Go good for backend development?](https://encore.dev/blog/go-and-other-languages): How Go compares to other languages for cloud backends.
+- [Full-stack Preview Environments](https://encore.dev/blog/preview-envs): Real-world testing of end-to-end changes with full environments per PR.
+- [Designing a Config API](https://encore.dev/blog/designing-a-config-api): How Encore ended up designing its config API for microservices.
+- [Taming Cloud Clutter](https://encore.dev/blog/taming-cloud-clutter): Designing an algorithmic cloud infrastructure provisioning system.
+- [5 Common microservices pain points](https://encore.dev/blog/common-microservices-pains): And how to avoid them.
+- [testscript, a hidden Go testing gem](https://encore.dev/blog/testscript-hidden-testing-gem): An internal package sees the light of day.
+- [Taming SQL and ORMs with sqlc](https://encore.dev/blog/go-get-it-001-sqlc): Achieving something better than the best of both worlds.
+- [Putting the fun back into software development](https://encore.dev/blog/fun-back-into-software-development): Encore v1.0 announcement and $3M seed funding.
+- [How we used Go 1.18 generics](https://encore.dev/blog/go-1.18-generic-identifiers): It turns out identifiers were generic the whole time.
+- [How we got 1500 GitHub stars in 1 week](https://encore.dev/blog/how-we-got-1500-stars): An overnight success 4 years in the making.
+- [Distributed tracing made simple](https://encore.dev/blog/tracing-reimagined): Reimagining distributed tracing for developer productivity.
+- [Git clone over gRPC](https://encore.dev/blog/git-clone-grpc): Clone git repositories over gRPC to simplify backend infrastructure.
+- [Simplifying Secrets for Go](https://encore.dev/blog/simple-secrets): Never feel tempted to commit secret keys to source code again.
+- [Service-Oriented Architecture Tradeoffs](https://encore.dev/blog/service-oriented-tradeoffs): Pros and cons on the spectrum from monolith to microservices.
+- [Advanced Go Concurrency](https://encore.dev/blog/advanced-go-concurrency): Using singleflight, errgroup, and other concurrency patterns.
+- [Custom Middleware in Encore.ts](https://encore.dev/blog/custom-middleware): Launch Week Day 1 — middleware support for Encore.ts.
+- [Public Object Storage Buckets + R2](https://encore.dev/blog/public-buckets): Launch Week Day 2 — public buckets and R2 support.
+- [Encore Open Source, independent of Encore Cloud](https://encore.dev/blog/open-source-decoupled): Launch Week Day 3 — fully decoupled open source.
+- [Advanced Validation in Encore.ts](https://encore.dev/blog/advanced-validation): Launch Week Day 4 — advanced request validation.
+- [Worker Pooling — 5x performance](https://encore.dev/blog/worker-pooling): Launch Week Day 5 — CPU-intensive JavaScript performance boost.
+- [Designing tools for LLMs too](https://encore.dev/blog/llm-instructions): How we used LLMs to produce instructions for LLMs.
+- [Beyond PaaS](https://encore.dev/blog/beyond-paas): A smarter approach to cloud-native development.
+- [Migrating from Rails to Go](https://encore.dev/blog/from-rails-to-go): Learn from teams who successfully migrated from Rails to Go.
+- [Go doesn't believe in frameworks](https://encore.dev/blog/go-frameworks): Simplicity can be a burden sometimes.
+- [Encore's MCP Server](https://encore.dev/blog/mcp-server): A local server that gives LLMs full access to your app's APIs and traces.
+- [Semantic Search with Qdrant & Encore.ts](https://encore.dev/blog/qdrant-semantic-search): Build semantic search using OpenAI embeddings and Qdrant.
+- [Leap: AI dev agent for Encore.ts](https://encore.dev/blog/leap-is-here): Combining AI with Encore.ts for incredible productivity.
+- [Email service with Resend & Encore.ts](https://encore.dev/blog/resend-starter): Build a powerful email sending application with Resend.
+- [Webhooks with Hookdeck & Encore.ts](https://encore.dev/blog/hookdeck-webhooks): Add reliable webhook notifications to your SaaS.
+- [Passwordless Auth with Stytch](https://encore.dev/blog/stytch-auth-starter): Add passwordless authentication with magic links.
+- [What is MCP?](https://encore.dev/blog/what-is-mcp): The Model Context Protocol explained for developers.
+- [BetterAuth Integration](https://encore.dev/blog/betterauth-tutorial): Implementing authentication with BetterAuth and Encore.
+- [Replicate Integration](https://encore.dev/blog/replicate-image-gen-tutorial): Running AI models with Replicate and Encore.
+- [Clerk + Encore](https://encore.dev/blog/clerk-tutorial): Production-ready auth with SSO, organizations, and instant deployment.
+- [File sharing app with Polar payments](https://encore.dev/blog/polar-tutorial): Build a WeTransfer-style app with subscriptions and object storage.
+- [LLM Observability with LangFuse](https://encore.dev/blog/langfuse-tutorial): Building AI apps with built-in observability.
+- [AI Code Execution with Daytona](https://encore.dev/blog/daytona-tutorial): Build infrastructure for AI coding agents with sandboxed execution.
+- [Autumn Integration](https://encore.dev/blog/autumn-tutorial): Usage-based pricing and billing made simple.
+- [Cursor can now build backends for AWS](https://encore.dev/blog/cursor-aws): When Cursor writes Encore code, it's automatically writing infrastructure too.
+- [Resend Integration](https://encore.dev/blog/resend-tutorial): Modern transactional emails for developers.
+- [Moving on from Terraform CDK](https://encore.dev/blog/terraform-cdk-alternative): How infrastructure-from-code works with Encore.
+- [Encore Cloud 2.0](https://encore.dev/blog/encore-cloud-two): Closing the loop between code and cloud.
+- [Email Workflows with Inbound](https://encore.dev/blog/inbound-tutorial): Send and receive emails programmatically without running a mail server.
+- [Keeping secrets from your AI agent](https://encore.dev/blog/keeping-secrets-from-ai): Your backend architecture determines what AI tools see and write.
+- [How AI Agents Want to Write Go](https://encore.dev/blog/golang-ai): Why structured frameworks produce better AI-generated code than minimal ones.
+
+## Resources & Articles
+
+- [Express.js vs Encore.ts in 2026](https://encore.dev/resources/expressjs-vs-encore): Comparing the most popular Node.js framework with a modern alternative.
+- [Best TypeScript Backend Frameworks in 2026](https://encore.dev/resources/best-typescript-backend-frameworks): A practical guide to choosing the right framework for your project.
+- [Best Go Backend Frameworks in 2026](https://encore.dev/resources/best-go-backend-frameworks): From the standard library to full-featured frameworks.
+- [NestJS vs Encore.ts in 2026](https://encore.dev/resources/nestjs-vs-encore): Comparing enterprise-grade Node.js frameworks for building backends.
+- [How to Build a REST API with TypeScript](https://encore.dev/resources/build-rest-api-typescript-2026): A practical guide to building type-safe APIs with modern tooling.
+- [How to Set Up Cron Jobs in TypeScript](https://encore.dev/resources/cron-jobs-typescript): Schedule recurring tasks in your backend without external services.
+- [How to Build Microservices with TypeScript](https://encore.dev/resources/microservices-typescript): A practical guide to building distributed systems that don't fall apart.
+- [How to Add Authentication to a TypeScript API](https://encore.dev/resources/authentication-typescript-api): Secure your endpoints with JWT, sessions, or API keys.
+- [Fastify vs Encore.ts in 2026](https://encore.dev/resources/fastify-vs-encore): Comparing schema-validated vs infrastructure-aware TypeScript frameworks.
+- [Hono vs Encore.ts in 2026](https://encore.dev/resources/hono-vs-encore): Comparing edge-first and infrastructure-aware TypeScript frameworks.
+- [tRPC vs Encore.ts in 2026](https://encore.dev/resources/trpc-vs-encore): Comparing two approaches to end-to-end type safety.
+- [Gin vs Encore.go in 2026](https://encore.dev/resources/gin-vs-encore): Comparing minimal HTTP framework with infrastructure-from-code for Go backends.
+- [Echo vs Encore.go in 2026](https://encore.dev/resources/echo-vs-encore): Comparing idiomatic HTTP framework with infrastructure-aware Go backend platform.
+- [Fiber vs Encore.go in 2026](https://encore.dev/resources/fiber-vs-encore): Comparing Express-inspired Go framework with infrastructure-from-code approach.
+- [Chi vs Encore.go in 2026](https://encore.dev/resources/chi-vs-encore): Comparing lightweight Go router with full backend development platform.
+- [How to Build a REST API with Go in 2026](https://encore.dev/resources/build-rest-api-go-2026): A practical guide to building type-safe Go APIs with modern tooling.
+- [How to Build Microservices with Go](https://encore.dev/resources/microservices-go): A practical guide to building distributed systems in Go.
+- [How to Add a Database to Your Go API in 5 Minutes](https://encore.dev/resources/add-database-go-api): From zero to PostgreSQL with automatic provisioning in Go.
+- [Best Frameworks for AI-Assisted Development 2026](https://encore.dev/articles/best-frameworks-ai-assisted-development): Compare which frameworks work best with Cursor, Claude Code, Copilot, and other AI coding assistants.
+- [Add a Database to Your TypeScript API in 5 Minutes](https://encore.dev/resources/add-database-typescript-api): From zero to PostgreSQL with automatic provisioning.
+- [API Types Explained](https://encore.dev/resources/api-types): Understanding REST, GraphQL, gRPC, and other API paradigms.
+- [AWS, Azure, and Google Cloud](https://encore.dev/resources/aws-azure-and-google-cloud): Overview of the major cloud providers.
+- [AWS vs Azure vs GCP Comparison](https://encore.dev/resources/aws-azure-gcp-comparison): Detailed comparison of the three major cloud platforms.
+- [AWS CloudFormation](https://encore.dev/resources/aws-cloudformation): Understanding AWS CloudFormation for infrastructure management.
+- [Azure Resource Manager](https://encore.dev/resources/azure-resource-manager): Understanding Azure's infrastructure management service.
+- [Backend as a Service](https://encore.dev/resources/backend-as-a-service): Understanding BaaS and when to use it.
+- [Backend for Frontend](https://encore.dev/resources/backend-for-frontend): The BFF pattern for modern web applications.
+- [Cloud Cost Optimization](https://encore.dev/resources/cloud-cost-optimization): Strategies for reducing cloud infrastructure costs.
+- [Event-Driven Architecture](https://encore.dev/resources/event-driven-architecture): Understanding event-driven design patterns.
+- [Go Frameworks](https://encore.dev/resources/go-frameworks): Comprehensive guide to Go web frameworks.
+- [Go Microservices](https://encore.dev/resources/go-microservices): Building microservices with Go.
+- [Go ORMs](https://encore.dev/resources/go-orms): Comparing Go ORMs and database libraries.
+- [Google Cloud Deployment Manager](https://encore.dev/resources/google-cloud-deployment-manager): GCP's infrastructure as code service.
+- [Google Cloud Pricing](https://encore.dev/resources/google-cloud-pricing): Understanding Google Cloud Platform pricing.
+- [Google Compute Engine](https://encore.dev/resources/google-compute): Overview of GCP's compute services.
+- [gRPC vs JSON](https://encore.dev/resources/grpc-vs-json): Comparing gRPC and JSON-based API approaches.
+- [IaaS vs PaaS vs BaaS](https://encore.dev/resources/iaas-paas-baas): Understanding cloud service models.
+- [Infrastructure as a Service](https://encore.dev/resources/infrastructure-as-a-service): Understanding IaaS and its use cases.
+- [Infrastructure as Code](https://encore.dev/resources/infrastructure-as-code): Understanding IaC principles and tools.
+- [Kubernetes Tutorial](https://encore.dev/resources/kubernetes-tutorial): Getting started with Kubernetes.
+- [Kubernetes](https://encore.dev/resources/kubernetes): Understanding Kubernetes container orchestration.
+- [Microservices CI/CD](https://encore.dev/resources/microservices-cicd): CI/CD pipelines for microservices architectures.
+- [Microservices](https://encore.dev/resources/microservices): Understanding microservices architecture.
+- [Monolithic Architecture](https://encore.dev/resources/monolithic-architecture): Understanding monoliths and when they make sense.
+- [Node.js Frameworks](https://encore.dev/resources/node-js-frameworks): Comprehensive guide to Node.js web frameworks.
+- [Platform as a Service](https://encore.dev/resources/platform-as-a-service): Understanding PaaS and its trade-offs.
+- [Preview Environments](https://encore.dev/resources/preview-environments): Ephemeral environments for testing pull requests.
+- [Pub/Sub Messaging](https://encore.dev/resources/pub-sub): Understanding publish-subscribe messaging patterns.
+- [Pulumi](https://encore.dev/resources/pulumi): Understanding Pulumi for infrastructure as code.
+- [REST API](https://encore.dev/resources/rest-api): Understanding RESTful API design principles.
+- [Serverless Functions](https://encore.dev/resources/serverless-functions): Understanding serverless computing.
+- [Serverless](https://encore.dev/resources/serverless): Overview of serverless architecture.
+- [Terraform Cloud](https://encore.dev/resources/terraform-cloud): Understanding Terraform Cloud for team collaboration.
+- [Terraform Modules](https://encore.dev/resources/terraform-modules): Reusable infrastructure components with Terraform.
+- [Terraform Providers](https://encore.dev/resources/terraform-providers): Understanding Terraform provider ecosystem.
+- [Terraform vs Pulumi](https://encore.dev/resources/terraform-vs-pulumi): Comparing infrastructure as code tools.
+- [Terraform](https://encore.dev/resources/terraform): Understanding HashiCorp Terraform.
+- [Vercel](https://encore.dev/resources/vercel): Understanding Vercel's frontend deployment platform.
+- [YAML](https://encore.dev/resources/yaml): Understanding YAML configuration format.
+- [Kubernetes Cheat Sheet](https://encore.dev/resources/k8s-cheat-sheet): Quick reference for Kubernetes commands and concepts.
+
+## Templates
+
+- [SaaS Starter](https://encore.dev/templates/saas-starter): Build a SaaS app with Encore.ts, Next.js, Clerk, Stripe, Tailwind & shadcn/ui.
+- [LLM Chat Room](https://encore.dev/templates/chatty-bots): Create an LLM powered chat room with Discord/Slack integration.
+- [GenAI Text-to-Speech App](https://encore.dev/templates/voice-ai): Create your own AI app powered by ElevenLabs.
+- [Event-Driven System Starter](https://encore.dev/templates/eda): Create an Uptime Monitor with Event-Driven Architecture.
+- [Booking System Starter](https://encore.dev/templates/appointment): Build your own Appointment Booking System.
+- [Next.js Starter](https://encore.dev/templates/nextjs): Get started quickly with Encore + Next.js.
+- [Slack Bot Starter](https://encore.dev/templates/slack-bot): Create a Cowsay Slack Bot with Encore.
+- [URL Shortener Starter](https://encore.dev/templates/url-shortener): Create a simple URL shortener with database.
+- [Auth0 Starter](https://encore.dev/templates/auth0): Implement user authentication using Auth0 with Encore.
+- [Auth0 React SDK Starter](https://encore.dev/templates/auth0-react-sdk): Implement authentication using Auth0's React SDK.
+- [Clerk Starter](https://encore.dev/templates/clerk): Implement user authentication using Clerk with Encore.
+- [ElevenLabs Voice AI](https://encore.dev/templates/elevenlabs): Add text-to-speech to your app with ElevenLabs.
+- [GraphQL Starter](https://encore.dev/templates/graphql): Build a GraphQL server with Encore.
+- [Microservices Starter](https://encore.dev/templates/microservices): Create a microservices backend for a Trello app.
+- [Next.js + Auth0 Starter](https://encore.dev/templates/nextjs-auth0): Build a web app with Encore, Next.js, and Auth0.
+- [Pexels Photo & Video Library](https://encore.dev/templates/pexels): Access free photos and videos from Pexels.
+- [PostgreSQL Starter](https://encore.dev/templates/postgresql): Create a simple service with a Database.
+- [React Starter](https://encore.dev/templates/react): Build a web app quickly with Encore + React.
+- [REST API Starter](https://encore.dev/templates/rest-api): Create a simple RESTful API with Encore.
+- [SendGrid Integration](https://encore.dev/templates/sendgrid): Send emails from your app using SendGrid.
+
+## Customer Stories
+
+- [Groupon](https://encore.dev/customers/groupon): Modernized a legacy platform with Encore.
+- [Bookshop.org](https://encore.dev/customers/bookshop): Migrated from Rails to Go microservices.
+- [Echo](https://encore.dev/customers/echo): From 0 to $375M acquisition built on Encore.
+- [Carla](https://encore.dev/customers/carla): GCP migration without DevOps.
+- [Pave Bank](https://encore.dev/customers/pave-bank): Built a bank in 9 months with Encore.
+
+## Use Cases
+
+- [DevOps Automation](https://encore.dev/use-cases/devops-automation): Automate DevOps workflows with Encore's infrastructure automation.
+- [Distributed Systems](https://encore.dev/use-cases/distributed-systems): Build distributed systems with built-in observability and type safety.
+- [Event-Driven Systems](https://encore.dev/use-cases/event-driven): Build event-driven architectures with Encore's Pub/Sub primitives.
