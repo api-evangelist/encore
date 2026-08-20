@@ -23,6 +23,15 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/encore.png
 tags:
   - Backend
+  - Cloud-Native
+  - Frameworks
+  - Go
+  - Infrastructure Automation
+  - Microservices
+  - Open-Source
+  - TypeScript
+tags_raw:
+  - Backend
   - Cloud Native
   - Frameworks
   - Go
@@ -45,6 +54,10 @@ apis:
       encore.app files in editors and CI pipelines.
     humanURL: https://encore.dev/docs/ts/develop/app-config
     tags:
+      - Application Configuration
+      - Encore App
+      - JSON-Schema
+    tags_raw:
       - Application Configuration
       - Encore App
       - JSON Schema
